@@ -1,0 +1,106 @@
+.header-message {
+  background-color: #002e6d;
+  padding: 12px 35px;
+  position: relative;
+}
+
+.header-message-text {
+  font-family: "NovaSemi";
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-top {
+  padding: 11px 0;
+  display: flex;
+  -webkit-box-orient: hotizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 93px;
+}
+
+.header-logo {
+  width: 130px;
+}
+
+.header-top-middle {
+  width: 41%;
+}
+
+.header-top-middle-search {
+  display: flex;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  margin-right: 30px;  
+}
+
+.header-top-middle-search input {
+    width: 100%;
+    border: none;
+    background: none;
+    height: 100%;
+    padding: 0 33px;
+    font-family: "NovaSemi";
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #979797;
+}
+
+.header-top-right {
+  display: flex;
+  -webkit-box-orient: hotizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  margin-bottom: 6px;
+  height: 48px;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.header-icon-link {
+  cursor: pointer;
+  color: #000000;
+  padding: 0 15px;
+  margin-right: 20px;
+}
+
+.header-icon-link-text {
+  display: block;
+  font-family: "NovaSemi";
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.header-icon-link span {
+  font-size: 18px;
+}
+
+[class^="icon-"] {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+
