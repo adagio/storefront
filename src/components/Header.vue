@@ -34,7 +34,7 @@
             </div>
           </a>
           <div class="header-icon-link">
-            <span class="icon-mi-cuenta">
+            <span class="icon-account">
             </span>
             <div class="header-icon-link-text">
               MI CUENTA
@@ -42,6 +42,9 @@
           </div>
           <div class="header-icon-link cart">
             <span class="icon-cart">
+              <div class="number">
+                0
+              </div>
             </span>
             <div class="header-icon-link-text">
               US$ 0.00
