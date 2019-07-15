@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+    <div class="header-box-shadow"></div>
     <div class="container">
       <HeaderMenu v-bind:items="[1, 2, 3, 4, 5, 6, 7, 8, 9]" />
     </div>
