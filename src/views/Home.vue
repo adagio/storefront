@@ -2,7 +2,7 @@
   <div class="home">
     <Header msg="message to header" />
     <Banner />
-    <Categories />
+    <Categories v-bind:items="[1, 2, 3]" />
     <div class="container">
       <ProductSlider />
     </div>

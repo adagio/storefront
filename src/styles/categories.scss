@@ -1,0 +1,23 @@
+.home-categories {
+    margin-top: -35px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 412px));
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    grid-gap: 0;
+    z-index: 0;
+}
+
+.home-categories-item {
+    width: 100%;
+    max-width: 412px;
+    height: 270px;
+    display: block;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+
+}
