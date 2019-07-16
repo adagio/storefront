@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Header
+      v-bind:logo="{ img_src: './images/motorex-logo-v.png' }"
       v-bind:menu_items="[
         {
           slug: 'aire-acondicionado',

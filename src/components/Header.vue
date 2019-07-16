@@ -12,9 +12,7 @@
         <div class="header-top-left">
           <div class="header-logo">
             <a href="/">
-              <img
-                src="https://res.cloudinary.com/jtantadiaz/image/upload/v1548195881/motorex/motorex-logo-v.png"
-              />
+              <img v-bind:src="logo.img_src" />
             </a>
           </div>
         </div>
@@ -82,6 +80,7 @@ export default {
   name: "Header",
   props: {
     msg: String,
+    logo: Object,
     menu_items: Array
   },
   components: {
