@@ -5,7 +5,7 @@
         {
           slug: 'aire-acondicionado',
           name: 'Aire acondicionado',
-          img_src: './assets/aire-acondicionado.svg'
+          img_src: './assets/images/aire-acondicionado.svg'
         },
         {
           slug: 'extractores',
