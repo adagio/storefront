@@ -5,8 +5,7 @@
         {
           slug: 'aire-acondicionado',
           name: 'Aire acondicionado',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/aire-acondicionado_d4aeZgZ.svg',
+          img_src: './assets/aire-acondicionado.svg'
         },
         {
           slug: 'extractores',
@@ -123,12 +122,4 @@ export default {
     Footer
   }
 };
-
-/*
- {'name': 'Aire Acondicionado'},{name:
-    'Extractores'},{name: 'Motores Electricos'},{name:'Reductores'},{name:'Controles
-    Electricos'}, {name: 'Tuberias de Cobre'},{name: 'Gas refriferante'},
-    {name:'Fibra de Vidrio'}, {name: 'Poliuretano'}
-
-*/
 </script>

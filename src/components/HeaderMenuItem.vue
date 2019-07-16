@@ -1,10 +1,10 @@
 <template>
-  <a class="header-menu-list-item" :href=item.slug>
+  <a class="header-menu-list-item" :href="item.slug">
     <div class="header-menu-list-item-img">
-      <img :src=item.img_src />
+      <img :src="item.img_src" />
     </div>
     <div class="header-menu-list-item-text">
-      {{item.name}}
+      {{ item.name }}
     </div>
   </a>
 </template>

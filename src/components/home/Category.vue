@@ -1,6 +1,6 @@
 <template>
-  <a :href=item.slug class="home-categories-item">
-    <img :src=item.img_src alt="">
+  <a :href="item.slug" class="home-categories-item">
+    <img :src="item.img_src" alt="" />
   </a>
 </template>
 
