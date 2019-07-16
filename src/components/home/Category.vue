@@ -1,11 +1,14 @@
 <template>
-  <a href="/extractores" class="home-categories-item">
-    <img src="https://tienda.motorex.com.pe/media/category_name/3_RFjPdcL.jpg" alt="">
+  <a :href=item.slug class="home-categories-item">
+    <img :src=item.img_src alt="">
   </a>
 </template>
 
 <script>
 export default {
-  name: "Category"
+  name: "Category",
+  props: {
+    item: Object
+  }
 };
 </script>

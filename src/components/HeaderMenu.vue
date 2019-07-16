@@ -2,7 +2,7 @@
   <div class="header-menu" >
     <div class="header-menu-ctn">
       <ul class="header-menu-list">
-        <HeaderMenuItem v-for="item in items"/> 
+        <HeaderMenuItem v-for="item in items" :item="item"/> 
       </ul>
     </div>
   </div> 

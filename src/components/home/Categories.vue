@@ -1,6 +1,6 @@
 <template>
   <div class="home-categories">
-    <Category v-for="item in items"/> 
+    <Category v-for="item in category_items" :item="item"/> 
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   name: "Categories",
   props: {
     msg: String,
-    items: Array
+    category_items: Array
   },
   components: {
     Category
