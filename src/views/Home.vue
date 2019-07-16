@@ -5,55 +5,47 @@
         {
           slug: 'aire-acondicionado',
           name: 'Aire acondicionado',
-          img_src: './assets/images/aire-acondicionado.svg'
+          img_src: './images/category_icons/aire-acondicionado.svg'
         },
         {
           slug: 'extractores',
           name: 'Extractores',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/coller-icon-header-nuevo.svg'
+          img_src: './images/category_icons/coller-icon-header-nuevo.svg'
         },
         {
           slug: 'motores-electricos',
           name: 'Motores electricos',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/radiator_KMDt0CN.svg'
+          img_src: './images/category_icons/radiator_KMDt0CN.svg'
         },
         {
           slug: 'reductores',
           name: 'Reductores',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/reductores_UMgVrjr.svg'
+          img_src: './images/category_icons/reductores_UMgVrjr.svg'
         },
         {
           slug: 'controles-electricos',
           name: 'Controles Electricos',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/controles_WxmiqDn.svg'
+          img_src: './images/category_icons/controles_WxmiqDn.svg'
         },
         {
           slug: 'tuberias-de-cobre',
           name: 'Tuberias de cobre',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/tuberias_Qzjdiv3.svg'
+          img_src: './images/category_icons/tuberias_Qzjdiv3.svg'
         },
         {
           slug: 'gas-refrigerante',
           name: 'Gas refrigerante',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/gas_e0t8HyM.svg'
+          img_src: './images/category_icons/gas_e0t8HyM.svg'
         },
         {
           slug: 'fibra-de-vidrio',
           name: 'Fibra de vidrio',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/fibra_njEXbbL.svg'
+          img_src: './images/category_icons/fibra_njEXbbL.svg'
         },
         {
           slug: 'poliuretano',
           name: 'Poliuretano',
-          img_src:
-            'https://tienda.motorex.com.pe/media/category_header/poliuterano_TPAW2sO.svg'
+          img_src: './images/category_icons/poliuterano_TPAW2sO.svg'
         }
       ]"
     />
