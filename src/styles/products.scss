@@ -42,6 +42,13 @@
             justify-content: space-between;
             height: 100%;
 
+            &:hover {
+                box-shadow: none;
+                border: 1px solid #002e6d;
+                -webkit-transition: all .25s ease-in;
+                transition: all .25s ease-in;
+            }
+
             .product-card__image {
                 padding: 13px 43px;
                 position: relative;
@@ -120,6 +127,13 @@
                     transition: all .25s ease-out;
                 }
             
+            }
+
+            &:hover .product-card-action {
+                background-color: #002e6d;
+                color: #fff;
+                -webkit-transition: all .25s ease-in;
+                transition: all .25s ease-in;
             }
 
         }
