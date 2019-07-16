@@ -1,10 +1,12 @@
 <template>
   <div class="home">
-    <Header msg="message to header" />
+    <Header v-bind:menu_items="[1, 2, 3, 4, 5, 6, 7, 8, 9]" />
     <Banner />
-    <Categories v-bind:items="[1, 2, 3]" />
+    <Categories
+      v-bind:items="[{ name: Extractores }, { name: Aire }, { name: Agua }]"
+    />
     <div class="container">
-      <ProductSlider v-bind:items="[1, 2, 3, 4]"/>
+      <ProductSlider v-bind:items="[1, 2, 3, 4]" />
     </div>
     <div class="container">
       <PromotionalGrid />
@@ -48,4 +50,12 @@ export default {
     Footer
   }
 };
+
+/*
+ {'name': 'Aire Acondicionado'},{name:
+    'Extractores'},{name: 'Motores Electricos'},{name:'Reductores'},{name:'Controles
+    Electricos'}, {name: 'Tuberias de Cobre'},{name: 'Gas refriferante'},
+    {name:'Fibra de Vidrio'}, {name: 'Poliuretano'}
+
+*/
 </script>
