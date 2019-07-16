@@ -4,7 +4,7 @@
     <Banner />
     <Categories v-bind:items="[1, 2, 3]" />
     <div class="container">
-      <ProductSlider />
+      <ProductSlider v-bind:items="[1, 2, 3, 4]"/>
     </div>
     <div class="container">
       <PromotionalGrid />
